@@ -27,6 +27,9 @@ ol {
   padding: 0;
 }
 .commonBtn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   padding: 10px;
   padding-right: 20px;
   background: #fff;
@@ -38,8 +41,9 @@ ol {
 .commonBtn .icon {
   color: var(--secondary);
   background: var(--primary);
-  padding: 5px 0;
+  padding: 5px;
   width: 28px;
+  height: 28px;
   border-radius: 50%;
   margin-right: 10px;
 }
@@ -80,10 +84,10 @@ ol {
 /* ------------------navber Start----------------- */
 .main-menu {
   width: 100%;
-  position: absolute;
+  /* position: absolute; */
   top: 40px;
   left: 0;
-  /* position: fixed; */
+  position: fixed;
   z-index: 20;
 }
 .main-menu ul {
@@ -360,7 +364,6 @@ ol {
 /* -------------------Feedback Start------------------- */
 .feedback_row {
   background: var(--f4);
-  border: 20px;
   text-align: center;
   margin-top: 23px;
   padding: 45px;
