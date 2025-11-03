@@ -86,9 +86,14 @@ ol {
   width: 100%;
   /* position: absolute; */
   top: 40px;
+  top: 0;
   left: 0;
   position: fixed;
   z-index: 20;
+}
+.s-bg {
+  background: var(--primary);
+  /* padding-top: 20px 0; */
 }
 .main-menu ul {
   gap: 30px;
